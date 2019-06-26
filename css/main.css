@@ -1,0 +1,150 @@
+/* Textos sobre os times*/
+.txttime{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    
+}
+
+/*Nome dos times*/
+.titulo{
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+}
+
+/*Logo dos Times*/
+.logo{
+    margin: 0 auto;
+    margin-top:70px;
+    display: flex;
+    justify-content: flex-start;
+    width: 300px;
+    height: 300px;
+    align-items: center;
+}
+
+
+.add{
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+}
+
+/*Links finais*/
+.linkfot{
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    text-decoration: none;
+
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    color: black
+}
+
+a:hover{
+    color: #ff00cc
+}
+
+a:link{
+    text-decoration: none;
+}
+
+/*Texto do inicio*/
+.txtstart{
+    font-family: 'Oswald', sans-serif;
+    font-size: 35px;
+    display: flex;
+    position: relative;
+    left: 70px;
+    top: -10px;
+    color: #ff00cc
+}
+
+/*Configuraçoes do cabeçalho*/
+.Cabecalho{
+    width: 100%;
+    height: 80px;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    position: fixed;
+    display: flex;
+    box-shadow: 0px 20px 18px -13px rgba(204,204,204,1);
+}
+
+/* Backgrund principal da pagina*/
+body{
+    background-color: white;
+}
+
+/* Backgrund footer*/
+footer{
+    background-color: beige;
+}
+
+/* botão principal*/
+.btn-hover {
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    /* Movimento do gredient*/
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:focus {
+    outline: none;
+}
+
+.btn-hover:hover {
+    background-position: 50% 0;
+    -moz-transition: all .6s ease-in-out;
+    -o-transition: all .6s ease-in-out;
+    -webkit-transition: all .6s ease-in-out;
+    transition: all .6s ease-in-out;
+}
+
+.btn-hover.cor-1 {
+    background-image: linear-gradient(to right, #ff00cc,#333399 );
+    box-shadow: 0 4px 15px 0 rgba(209,0,209,1);
+}
+
+/*Texto final*/
+.final{
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+@media all and (min-width: 768px) {
+
+.cabecalho{
+    width: 100%;
+    height: 50px;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    position: fixed;
+    box-shadow: 0px 20px 18px -13px rgba(204,204,204,1);
+}
+
+
+
+
+
+
+}
